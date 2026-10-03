@@ -1,3 +1,96 @@
-h1 {
-  color: brown;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 400vh;
+}
+
+#navbar {
+  background-color: blueviolet;
+  overflow: auto;
+}
+
+#navbar .logo {
+  color: white;
+  float: left;
+}
+
+#navbar .link-list {
+  list-style: none;
+  float: right;
+}
+
+#navbar .link-list li {
+  float: left;
+  padding: 8px 12px;
+}
+
+#navbar .link-list li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.parent {
+  margin-top: 20px;
+  width: 400px;
+  height: 400px;
+  background-color: rebeccapurple;
+  position: relative;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+}
+
+.box:nth-child(even) {
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* position: relative; */
+  /* top: 20px; */
+  /* right: 20px; */
+  /* bottom: 20px; */
+  /* left: 20px; */
+}
+
+.box:first-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(50px);
+  transform: translateY(-50px);
+}
+
+.box:last-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  transform: translate(-50%, -50%);
+}
+
+.box:nth-child(3) {
+  position: sticky;
+  top: 50px;
+  border-top-left-radius: 10px;
+}
+
+.content-text {
+  /* display: none; */
+  /* visibility: hidden; */
+}
+
+.link {
+  padding: 100px;
+  background-color: aquamarine;
+  display: inline-block;
 }

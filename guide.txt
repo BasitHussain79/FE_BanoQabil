@@ -1,0 +1,38 @@
+margin: 10px -> all 4 sides
+margin: 10px 20px -> TB LR
+margin: 10px 20px 30x -> T LR B
+margin: 10px 20px 30x 40px -> T R B L
+margin-left, margin-top, margin-right, margin-bottom
+
+box-sizing: border-box
+
+border-style
+border-width
+border-color
+border: border-style border-width border-color
+
+border-top, border-left, border-bottom, border-right
+
+border-radius, border-top-left-radius, border-top-right-radius
+border-bottom-left-radius, border-bottom-right-radius
+
+font-size, font-weight, font-faimly, text-transform, 
+letter-spacing, word-spacing, color, line-height
+
+float: left, right -> child
+overflow: auto -> parent element
+
+nav > div.logo + ul.link-list 
+list-style: none
+
+position: relative, absolute, static, sticky
+
+
+display: none | inline-block | block | inline | flex
+visibility: hidden
+
+inline element -> X padding, width, height
+
+
+.container -> .box + .box + .box 
+
