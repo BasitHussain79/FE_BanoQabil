@@ -4,104 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
+    <title>Grid Complete Guide</title>
   </head>
   <body>
-    <h1 style="font-size: 16px">HTML Forms</h1>
-    <form>
-      <div>
-        <label for="fullName">Full Name</label> <br />
-        <input
-          type="text"
-          name="fullName"
-          id="fullName"
-          minlength="3"
-          maxlength="8"
-        />
-      </div>
-      <div>
-        <label for="email">Email</label> <br />
-        <input type="email" name="email" id="email" required />
-      </div>
-      <div>
-        <label for="password">Password</label> <br />
-        <input type="password" name="password" id="password" disabled />
-      </div>
-      <div>
-        <label for="age">Age</label> <br />
-        <input type="number" name="age" id="age" min="18" max="30" />
-      </div>
-
-      <div>
-        <label for="dob">Date of birth</label> <br />
-        <input
-          type="date"
-          name="dob"
-          id="dob"
-          min="2000-01-01"
-          max="2025-12-31"
-        />
-      </div>
-
-      <div>
-        <label>Gender</label> <br />
-        <input type="radio" name="gender" id="male" value="Male" />
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="female" value="female" />
-        <label for="female">Female</label>
-      </div>
-
-      <div>
-        <label>Courses</label> <br />
-        <input type="checkbox" name="courses" id="course01" value="course01" />
-        <label for="course01">Course 01</label>
-        <input type="checkbox" name="courses" id="course02" value="course02" />
-        <label for="course02">Course 02</label>
-        <input
-          type="checkbox"
-          checked
-          name="courses"
-          id="course03"
-          value="course03"
-        />
-        <label for="course03">Course 03</label>
-        <input
-          type="checkbox"
-          name="courses"
-          id="course04"
-          value="course04"
-          disabled
-        />
-        <label for="course04">Course 04</label>
-      </div>
-
-      <div>
-        <label for="packages">Packages</label> <br />
-        <select name="packages" id="packages">
-          <option value="option01">Option 01</option>
-          <option value="option02">Option 02</option>
-          <option value="option03" selected>Option 03</option>
-          <option value="option04" disabled>Option 04</option>
-          <option value="option05">Option 05</option>
-        </select>
-      </div>
-
-      <div>
-        <label for="feesScreenshot">Fees Screenshot</label> <br />
-        <input type="file" name="" id="feesScreenshot" accept=".png" />
-      </div>
-
-      <div>
-        <label for="favColour">Fav Colour</label> <br />
-        <input type="color" name="" id="favColour" />
-      </div>
-
-      <div>
-        <button type="submit">Submit</button>
-        <input type="submit" value="Submit" />
-        <button type="reset">Reset</button>
-        <input type="reset" value="Reset" />
-      </div>
-    </form>
+    <div class="container-gallery">
+      <img src="./img/gal-1.jpeg" alt="" />
+      <img src="./img/gal-2.jpeg" alt="" />
+      <img src="./img/gal-3.jpeg" alt="" />
+      <img src="./img/gal-4.jpeg" alt="" />
+      <img src="./img/gal-5.jpeg" alt="" />
+      <img src="./img/gal-6.jpeg" alt="" />
+      <img src="./img/gal-7.jpeg" alt="" />
+      <img src="./img/gal-8.jpeg" alt="" />
+      <img src="./img/gal-9.jpeg" alt="" />
+      <img src="./img/gal-10.jpeg" alt="" />
+      <img src="./img/gal-11.jpeg" alt="" />
+      <img src="./img/gal-12.jpeg" alt="" />
+      <img src="./img/gal-13.jpeg" alt="" />
+      <img src="./img/gal-14.jpeg" alt="" />
+    </div>
+    <div class="container-demo">
+      <div class="item item-1">item-1</div>
+      <div class="item item-2">item-2</div>
+      <div class="item item-3">item-3</div>
+      <div class="item item-4">item-4</div>
+      <div class="item item-5">item-5</div>
+      <div class="item item-6">item-6</div>
+      <div class="item item-7">item-7</div>
+      <div class="item item-8">item-8</div>
+      <div class="item item-9">item-9</div>
+    </div>
+    <div class="container">
+      <header class="header">Header</header>
+      <aside class="sidebar">Sidebar</aside>
+      <section class="content-01">content 01</section>
+      <section class="content-02">content 02</section>
+      <section class="content-03">content 03</section>
+      <footer class="footer">Footer</footer>
+    </div>
   </body>
 </html>
